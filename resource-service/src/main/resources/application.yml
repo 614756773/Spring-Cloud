@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: service1
+  application:
+    name: resource-service
+server:
+  servlet:
+    context-path: /resource
